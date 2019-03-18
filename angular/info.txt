@@ -1,0 +1,16 @@
+prerequsites: node
+
+project skeleton created via:
+ng new
+
+npm install
+^^^^^^^^^^^ downloads and populates node_modules folder
+
+ng build
+^^^^^^^^ compile *.ts to javascript and stores them in ../src/main/resources/static/angular-app
+
+example:
+npm add --dev @fortawesome/angular-fontawesome
+^^^^^^^ adds a dependency to package.json
+
+npm add ngx-bootstrap

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="hu" xmlns:th="http://www.thymeleaf.org">
+
+<head th:replace="fragments/fragments :: htmlhead"></head>
+
+<body>
+<div>
+Hello, this is the spring mvc with angular demo app.
+</div>
+
+<div>
+here comes the angular content
+</div>
+
+<app-root></app-root>
+
+<script th:src="@{/angular-app/runtime.js}" ></script>
+<script th:src="@{/angular-app/polyfills.js}" ></script>
+<script th:src="@{/angular-app/styles.js}" ></script>
+<script th:src="@{/angular-app/vendor.js}" ></script>
+<script th:src="@{/angular-app/main.js}" ></script>
+<script th:src="@{/angular-app/runtime.js}" ></script>
+<!--
+<script type="text/javascript" src="resources/angular-app/runtime.js"></script>
+<script type="text/javascript" src="resources/angular-app/polyfills.js"></script>
+<script type="text/javascript" src="resources/angular-app/styles.js"></script>
+<script type="text/javascript" src="resources/angular-app/vendor.js"></script>
+<script type="text/javascript" src="resources/angular-app/main.js"></script>
+-->
+</body>
+
+</html>
